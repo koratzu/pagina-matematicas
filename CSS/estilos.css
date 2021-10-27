@@ -1,0 +1,102 @@
+
+
+body {
+	background: #D3E9FE;
+	font-family: sans-serif;
+	text-align: justify;	
+	display: block;
+}
+
+hr {
+	width: 90%; 
+	border: 1px solid white;
+	margin: auto;
+}
+
+h1 a {
+	font-size: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #2B2D42;
+}
+
+header, footer {
+	width: 100%;
+	margin: 0px auto;
+}
+
+header {
+	padding-bottom: 30px;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	padding: 10px 92px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	font-size: 19px;
+}
+
+header nav ul li a:hover {
+	background: #fee8d3;
+}
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul li {
+	position:relative;
+}
+
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+.justify {
+	width: 70%;
+	height: 170px;
+    background: #fee8d3;
+	position: static;
+	border: 9px outset #EDF2F4;
+	margin: 10px auto;
+	padding: 30px;
+}
+
+.mision {
+    width: 70%;
+	height: 290px;
+    background: #fee8d3;
+	position: static;
+	border: 9px outset #EDF2F4;
+	margin: 10px auto;
+	padding: 30px;
+}
+
+.promedio {
+	width: 35%;
+	height: 360px;
+    background: #fee8d3;
+	position: static;
+	border: 9px outset #EDF2F4;
+	margin: 10px auto;
+	padding: 30px;
+}
+
+footer div {
+	text-align: center;
+}
